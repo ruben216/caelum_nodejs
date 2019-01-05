@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon ./app.js"
+    "dev": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ruben216/caelum_nodejs#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "nodemon": "^1.18.9"

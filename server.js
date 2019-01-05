@@ -5,4 +5,4 @@ http.createServer(function (request,response){
     response.end('<h1>Ola , a partir do arquivo server.js ;D</h1> ');
 }).listen(3000,'localhost');
 
-console.log('Executando a partir do servidor localhost porta 3000...');
+console.log('Executando a partir do sdadsaservidor localhost porta 3000...');
