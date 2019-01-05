@@ -4,7 +4,8 @@
   "description": "Projeto de testes para Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/ruben216/caelum_nodejs/issues"
   },
-  "homepage": "https://github.com/ruben216/caelum_nodejs#readme"
+  "homepage": "https://github.com/ruben216/caelum_nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
 }
